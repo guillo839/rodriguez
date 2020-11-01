@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="text_color">#484b4d</color>
+    <color name="btn_color">#69cac7</color>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorFondo">#001d7e</color>
+    <color name="colorBoton">#bf0310</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorWhite">#F8F8FF</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="inputText">#000000</color>
+    <color name="buttonPadIdle">#d8d8d8</color>
+    <color name="buttonPadPressed">#c6c6c6</color>
+
+    <color name="dimBackgroundColor">#40000000</color>
+    <color name="brightBackgroundColor">#ffffffff</color>
+    <color name="colorRowSeparator">#cccccc</color>
+    <color name="filterBackground">#cccccc</color>
+    <color name="filterText">#3366cc</color>
+</resources>

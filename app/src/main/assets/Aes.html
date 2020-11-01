@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous">
+  
+  
+  </script>
+    <!--
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+  -->
+   <script src="aes.js"></script>
+  <script>
+
+function encripta(card,monthtmp,yeartmp,holder,cvv){
+
+var cardNumber=card;
+var expirationMonth=monthtmp;
+var expirationYear=yeartmp;
+var holderName=holder;
+var securityCode=cvv;
+
+var datos = {cardNumber: cardNumber, expirationMonth: expirationMonth,expirationYear: expirationYear,holderName: holderName, securityCode: securityCode};
+//ksb6dqQBoQanHGAmvIvsKqZVZiH0IElJ
+//49OrjF5l8VbLMVXQFw4oz0Rtu5dKFR3d
+var codificado = CryptoJS.AES.encrypt(JSON.stringify(datos),'49OrjF5l8VbLMVXQFw4oz0Rtu5dKFR3d').toString();
+return codificado;
+
+}
+  </script>
+  </head>
+
+  <body>
+    <h1>Encryption</h1>
+    <div id="encrypted"></div>
+
+    <script>encripta();</script>
+  </body>
+
+</html>

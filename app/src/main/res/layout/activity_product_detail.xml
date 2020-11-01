@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="guillermo.proyectoa.mpos.productDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:padding="10dip"
+            android:layout_gravity="top"
+            android:id="@+id/txtproducto"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:padding="10dip"
+            android:layout_toRightOf="@+id/txtproducto"
+            android:id="@+id/txtPrecioProducto"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/pay1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/colorFondo"
+            android:paddingBottom="5dp"
+            android:text="Pagar"
+            android:textSize="15dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+        <Switch
+            android:id="@+id/tyc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:thumbTint="@color/colorBoton"
+            android:text="Términos y Condiciones "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Al aceptar los términos Ud. autoriza al comercio a realizar el cobro del producto/servicio por la cantidad estipulada en el servicio"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">POS-MOBILE</string>
+    <string name="label_buy_now">Pagar</string>
+    <string name="label_Card_Number">No. de Tarjeta</string>
+    <string name="label_Signature">Firma</string>
+    <string name="label_Date">Fecha</string>
+    <string name="label_Time">Hora</string>
+    <string name="label_email">Correo electrónico</string>
+    <string name="label_phone">Número de teléfono</string>
+    <string name="label_Amount_Spent">Consumo</string>
+    <string name="label_Vat">Iva</string>
+    <string name="label_Total">Total</string>
+    <string name="label_Accept">Aceptar</string>
+</resources>
